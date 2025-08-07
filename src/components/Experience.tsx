@@ -1,13 +1,12 @@
-
 import React from 'react';
 import { Building2, Calendar } from 'lucide-react';
 
 const Experience = () => {
   const experiences = [
     { 
-      company: 'Connect Solutions', 
-      duration: 'Dec 2022 - March 2023',
-      role: 'Ai/ML Internship',
+      company: 'BitWords.Inc', 
+      duration: 'Prasent',
+      role: 'Full Stack Developer',
     },
     { 
       company: 'Ekhata erp', 
@@ -15,9 +14,9 @@ const Experience = () => {
       role: 'Assistant Software Engineer',
     },
     { 
-      company: 'BitWords.Inc', 
-      duration: 'Prasent',
-      role: 'Full Stack Developer',
+      company: 'Connect Solutions', 
+      duration: 'Dec 2022 - March 2023',
+      role: 'Ai/ML Internship',
     },
   ];
 

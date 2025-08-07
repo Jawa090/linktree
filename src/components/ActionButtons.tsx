@@ -18,7 +18,7 @@ const ActionButtons = () => {
     { 
       title: 'Portfolio', 
       icon: Briefcase, 
-      href: 'https://jawad-portfolio-orcin.vercel.app',
+      href: 'https://myportfolio-steel-nu-42.vercel.app', // updated URL
       isPrimary: false
     },
     { 
