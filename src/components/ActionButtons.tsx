@@ -7,14 +7,14 @@ const ActionButtons = () => {
   const experiences = [
     { 
       company: 'BitWords.Inc', 
-      duration: 'Present',
+      duration: 'April 2025 - Present',
       role: 'Full Stack Developer',
       description: 'Leading development of scalable web applications using React & Node.js',
       achievement: '↗️ 40% performance improvement'
     },
     { 
       company: 'Ekhata ERP', 
-      duration: '1 Year',
+      duration: 'Feb 2024 - March 2025',
       role: 'Assistant Software Engineer',
       description: 'Working with AI skimming tools, free AI tools, LLM models, and backend development for ERP systems',
       achievement: '🤖 AI tools & LLM integration'
