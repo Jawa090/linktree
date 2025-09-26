@@ -16,6 +16,26 @@ const Index = () => {
           <ProfileHeader />
           <ActionButtons />
 
+          {/* View Portfolio button */}
+          <div className="space-y-2">
+            <a
+              href="https://myportfolio-steel-nu-42.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full flex items-center justify-between py-3 px-4 bg-white border-2 border-purple-200 rounded-full text-purple-600 font-medium hover:bg-purple-50 transition-colors"
+            >
+              <div className="flex items-center space-x-3">
+                <div className="w-8 h-8 bg-gray-600 rounded-full flex items-center justify-center">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M20 7H4a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2Z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                    <path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
+                <span>View Portfolio</span>
+              </div>
+            </a>
+          </div>
+
           {/* Contact button */}
           <div className="space-y-2">
             <a
