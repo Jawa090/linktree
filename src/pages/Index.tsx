@@ -1,5 +1,6 @@
 import ProfileHeader from '../components/ProfileHeader';
 import ActionButtons from '../components/ActionButtons';
+import { Link } from 'react-router-dom';
 
 const Index = () => {
   return (
@@ -15,6 +16,23 @@ const Index = () => {
         <div className="p-6 space-y-4">
           <ProfileHeader />
           <ActionButtons />
+
+          {/* View Projects button */}
+          <div className="space-y-2">
+            <Link
+              to="/projects"
+              className="w-full flex items-center justify-between py-3 px-4 bg-white border-2 border-purple-200 rounded-full text-purple-600 font-medium hover:bg-purple-50 transition-colors"
+            >
+              <div className="flex items-center space-x-3">
+                <div className="w-8 h-8 bg-gray-500 rounded-full flex items-center justify-center">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                </div>
+                <span>View Projects</span>
+              </div>
+            </Link>
+          </div>
 
           {/* View Portfolio button */}
           <div className="space-y-2">
