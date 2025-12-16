@@ -4,148 +4,212 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
   const projects = [
     {
-      name: "FreeTool AI",
-      url: "https://freetoolai.com/",
-      description: "Comprehensive AI tools platform offering various artificial intelligence solutions",
-      technology: "Built with modern web technologies and AI integration",
-      features: "Multiple AI tools, user-friendly interface, and seamless experience",
-      impact: "Helping users leverage AI technology for productivity and creativity"
-    },
-    {
-      name: "Skimming AI",
-      url: "https://www.skimming.ai/",
-      description: "Advanced content analysis platform powered by artificial intelligence",
-      technology: "Machine learning algorithms for text processing and analysis",
-      features: "Smart content summarization, keyword extraction, and insights",
-      impact: "Streamlining content review and analysis for businesses and individuals"
-    },
-    {
       name: "3Remotors",
       url: "https://3remotors.com/",
-      description: "Comprehensive remote work hub connecting talent with opportunities",
-      technology: "Full-stack web application with modern frameworks",
-      features: "Job matching, remote work resources, and community features",
-      impact: "Facilitating remote work connections and career growth globally"
+      description: "Vehicle listing and selling platform for purchasing technology",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Vehicle listings, buying/selling functionality, search filters, user profiles",
+      impact: "Streamlining vehicle marketplace transactions with modern technology"
     },
     {
       name: "BitWords",
       url: "https://bitwords.com/",
-      description: "Dynamic content platform for writers and content creators",
-      technology: "Responsive web design with content management system",
-      features: "Content creation tools, publishing platform, and analytics",
-      impact: "Empowering writers to create, share, and monetize their content"
+      description: "Portfolio site for my company showcasing services and expertise",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Company portfolio, service showcase, client testimonials, contact system",
+      impact: "Professional company representation and client engagement platform"
     },
     {
       name: "Fusion Cortex",
       url: "https://fusioncortex.com/",
-      description: "Innovative technology solutions provider for modern businesses",
-      technology: "Enterprise-grade architecture with scalable solutions",
-      features: "Custom software development, consulting, and tech integration",
-      impact: "Transforming businesses through cutting-edge technology solutions"
+      description: "Service site for company providing technology solutions",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Service listings, project showcases, client management, consultation booking",
+      impact: "Comprehensive platform for technology service delivery and client management"
     },
     {
       name: "Paradise Estimating",
       url: "https://paradiseestimating.com/",
-      description: "Professional cost estimation services for construction projects",
-      technology: "Specialized estimation software with industry-standard tools",
-      features: "Accurate cost calculations, project analysis, and detailed reports",
-      impact: "Helping contractors and builders make informed financial decisions"
+      description: "Marketing site for construction management services",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Service marketing, project galleries, cost estimation tools, client inquiries",
+      impact: "Professional marketing platform for construction estimation services"
     },
     {
       name: "Estimating Hub",
       url: "https://estimatinghub.com/",
-      description: "Centralized platform for project estimation and cost management",
-      technology: "Cloud-based estimation tools with real-time collaboration",
-      features: "Multi-project management, cost tracking, and team collaboration",
-      impact: "Streamlining estimation processes for construction professionals"
+      description: "Marketing site for construction management services",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Construction service marketing, project management tools, cost estimation platform",
+      impact: "Centralized platform for construction estimation and project management services"
     },
     {
       name: "DEC Experts",
       url: "https://decexperts.com/",
-      description: "Expert consulting services across multiple industry verticals",
-      technology: "Professional service platform with client management system",
-      features: "Expert matching, consultation booking, and project management",
-      impact: "Connecting businesses with specialized expertise for growth"
+      description: "Marketing site for construction management services",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Expert profiles, construction consulting, project management, client services",
+      impact: "Connecting construction professionals with expert management and consulting services"
     },
     {
       name: "BitSocial",
       url: "https://bitsocial.com/",
-      description: "Next-generation social platform for meaningful connections",
-      technology: "Modern social media architecture with real-time features",
-      features: "Social networking, content sharing, and community building",
-      impact: "Creating authentic social experiences in the digital age"
+      description: "Social media selling agent platform built for social commerce",
+      technology: "React.js with modern frontend technologies",
+      features: "Social media integration, selling tools, agent management, analytics dashboard",
+      impact: "Empowering social media agents with professional selling tools and analytics"
     },
     {
       name: "Contractors List",
       url: "https://contractorslist.com/",
-      description: "Comprehensive directory service for construction professionals",
-      technology: "Database-driven platform with search and filtering capabilities",
-      features: "Contractor profiles, reviews, project galleries, and contact system",
-      impact: "Connecting property owners with qualified construction professionals"
+      description: "Marketplace platform similar to PlanHub for construction professionals",
+      technology: "MERN Stack and various modern technologies",
+      features: "Contractor directory, project bidding, marketplace functionality, professional networking",
+      impact: "Comprehensive marketplace connecting contractors with construction opportunities"
     },
     {
       name: "Remote Seat",
       url: "https://remoteseat.com/",
-      description: "Premier remote job platform for distributed teams and talent",
-      technology: "Job board platform with advanced matching algorithms",
-      features: "Remote job listings, candidate profiles, and hiring tools",
-      impact: "Bridging the gap between remote talent and global opportunities"
+      description: "Services site for remote work solutions and consulting",
+      technology: "React.js with modern web technologies",
+      features: "Remote work services, consultation booking, resource library, client management",
+      impact: "Facilitating remote work transitions and providing professional remote work solutions"
     },
     {
       name: "Rush Corporation",
       url: "https://rushcorporation.com/",
-      description: "Comprehensive business solutions provider for enterprise clients",
-      technology: "Enterprise web platform with integrated business tools",
-      features: "Business consulting, process optimization, and strategic planning",
-      impact: "Accelerating business growth through strategic solutions and expertise"
+      description: "Company portfolio showcasing corporate services and expertise",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Corporate portfolio, service showcase, team profiles, client case studies",
+      impact: "Professional corporate presence with comprehensive service representation"
+    },
+    {
+      name: "Construction Estimating California",
+      url: "https://constructionestimatingcalifornia.com/",
+      description: "Construction management services for California region",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Regional construction services, cost estimation, project management, client portal",
+      impact: "Providing specialized construction management services across California"
+    },
+    {
+      name: "Construction Estimating New York",
+      url: "http://constructionestimatingnewyork.com/",
+      description: "Construction management services for New York region",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Regional construction services, cost estimation, project management, client portal",
+      impact: "Delivering professional construction management services in New York"
+    },
+    {
+      name: "Construction Estimating Texas",
+      url: "http://constructionestimatingtexas.com/",
+      description: "Construction management services for Texas region",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Regional construction services, cost estimation, project management, client portal",
+      impact: "Comprehensive construction management solutions across Texas"
+    },
+    {
+      name: "Drywall Estimating",
+      url: "https://drywallestimating.us/",
+      description: "Specialized drywall construction management services in USA",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Drywall estimation, project planning, material calculations, contractor network",
+      impact: "Expert drywall estimation services for construction professionals nationwide"
+    },
+    {
+      name: "Electrical Estimates",
+      url: "https://electricalestimates.us/",
+      description: "Electrical construction management services across USA",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Electrical estimation, wiring calculations, project management, contractor matching",
+      impact: "Professional electrical estimation services for construction industry"
+    },
+    {
+      name: "Estimating Florida",
+      url: "https://estimatingflorida.com/",
+      description: "Construction management services for Florida region",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Regional construction services, cost estimation, project management, client portal",
+      impact: "Specialized construction management solutions for Florida market"
+    },
+    {
+      name: "MEP Estimate",
+      url: "https://mepestimate.us/",
+      description: "Mechanical, Electrical, and Plumbing construction management services",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "MEP estimation, system design, project coordination, technical consulting",
+      impact: "Expert MEP estimation services for complex construction projects"
+    },
+    {
+      name: "Lumber Takeoff",
+      url: "http://lumberstakeoff.us/",
+      description: "Lumber and material takeoff services for construction projects",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Material takeoff, lumber calculations, cost analysis, supplier network",
+      impact: "Accurate lumber estimation services for construction professionals"
+    },
+    {
+      name: "Phoenix Estimating",
+      url: "https://phoenixestimating.com/",
+      description: "Construction management services for Phoenix and Arizona region",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Regional construction services, cost estimation, project management, client portal",
+      impact: "Professional construction management solutions for Phoenix market"
+    },
+    {
+      name: "Paradise Roofers",
+      url: "http://paradiseroofers.com/",
+      description: "Roofing construction management services across USA",
+      technology: "MERN Stack (MongoDB, Express.js, React, Node.js)",
+      features: "Roofing estimation, material calculations, contractor network, project management",
+      impact: "Specialized roofing services and estimation for construction industry"
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gray-100 py-8 px-4">
+    <div className="min-h-screen bg-background py-4 sm:py-8 px-2 sm:px-4">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="mb-8">
           <Link 
             to="/" 
-            className="inline-flex items-center space-x-2 text-purple-600 hover:text-purple-700 mb-4"
+            className="inline-flex items-center space-x-2 text-primary hover:text-primary/80 mb-4"
           >
             <ArrowLeft size={20} />
             <span>Back to Home</span>
           </Link>
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">My Projects</h1>
-          <p className="text-gray-600">A showcase of my work and contributions across various domains</p>
+          <h1 className="text-2xl sm:text-3xl font-bold text-foreground mb-2">My Projects</h1>
+          <p className="text-muted-foreground">A showcase of my work and contributions across various domains</p>
         </div>
 
         {/* Projects Grid */}
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-1">
+        <div className="grid gap-4 sm:gap-6 md:grid-cols-2 lg:grid-cols-1">
           {projects.map((project, index) => (
-            <div key={index} className="bg-white rounded-2xl shadow-lg border border-gray-200 p-6 hover:shadow-xl transition-shadow duration-300">
+            <div key={index} className="bg-card rounded-2xl shadow-lg border border-border p-4 sm:p-6 hover:shadow-xl transition-shadow duration-300">
               <div className="flex flex-col space-y-3">
-                <div className="flex items-center justify-between">
-                  <h3 className="text-xl font-semibold text-gray-800">{project.name}</h3>
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 sm:gap-0">
+                  <h3 className="text-lg sm:text-xl font-semibold text-card-foreground">{project.name}</h3>
                   <a
                     href={project.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 bg-purple-600 text-white rounded-full text-sm hover:bg-purple-700 transition-colors"
+                    className="px-4 py-2 bg-primary text-primary-foreground rounded-full text-sm hover:bg-primary/90 transition-colors text-center sm:text-left flex-shrink-0"
                   >
                     Visit Site
                   </a>
                 </div>
                 
                 <div className="space-y-2 text-sm">
-                  <p className="text-gray-700 leading-relaxed">
-                    <span className="font-medium text-purple-600">Overview:</span> {project.description}
+                  <p className="text-card-foreground leading-relaxed">
+                    <span className="font-medium text-primary">Overview:</span> {project.description}
                   </p>
-                  <p className="text-gray-700 leading-relaxed">
-                    <span className="font-medium text-purple-600">Technology:</span> {project.technology}
+                  <p className="text-card-foreground leading-relaxed">
+                    <span className="font-medium text-primary">Technology:</span> {project.technology}
                   </p>
-                  <p className="text-gray-700 leading-relaxed">
-                    <span className="font-medium text-purple-600">Features:</span> {project.features}
+                  <p className="text-card-foreground leading-relaxed">
+                    <span className="font-medium text-primary">Features:</span> {project.features}
                   </p>
-                  <p className="text-gray-700 leading-relaxed">
-                    <span className="font-medium text-purple-600">Impact:</span> {project.impact}
+                  <p className="text-card-foreground leading-relaxed">
+                    <span className="font-medium text-primary">Impact:</span> {project.impact}
                   </p>
                 </div>
               </div>

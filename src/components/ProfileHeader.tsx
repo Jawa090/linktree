@@ -15,23 +15,23 @@ const ProfileHeader = () => {
     <div className="text-center space-y-3">
       {/* Profile Image - compact */}
       <div className="relative inline-block">
-        <Avatar className="w-20 h-20 border-3 border-white shadow-lg">
+        <Avatar className="w-20 h-20 border-3 border-border shadow-lg">
           <AvatarImage
             src="image.png"
             alt="Jawad Abbas"
             className="object-cover w-full h-full"
           />
-          <AvatarFallback className="bg-gradient-to-br from-teal-100 to-blue-100 text-gray-700 text-xl font-bold">
+          <AvatarFallback className="bg-gradient-to-br from-primary/20 to-primary/30 text-foreground text-xl font-bold">
             JA
           </AvatarFallback>
         </Avatar>
       </div>
 
       <div className="space-y-2">
-        <h1 className="text-xl font-bold text-purple-600">
+        <h1 className="text-xl font-bold text-primary">
           Jawad Abbas
         </h1>
-        <p className="text-sm text-gray-600 leading-tight">
+        <p className="text-sm text-muted-foreground leading-tight">
           Full-Stack Developer, React & Node.js,<br />
           and AI/ML solutions
         </p>
@@ -46,7 +46,7 @@ const ProfileHeader = () => {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-8 h-8 rounded-full bg-gray-100 text-gray-600 flex items-center justify-center transition-all duration-300 hover:scale-110 hover:bg-purple-100 hover:text-purple-600"
+                className="w-8 h-8 rounded-full bg-secondary text-muted-foreground flex items-center justify-center transition-all duration-300 hover:scale-110 hover:bg-accent hover:text-primary"
                 aria-label={link.label}
               >
                 <Icon size={14} />
